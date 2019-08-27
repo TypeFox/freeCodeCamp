@@ -44,7 +44,7 @@ tasks:
   command: >
     gp await-port 3000 &&
     cd ./client &&
-    npm run develop -- -H '0.0.0.0'
+    npm run develop -- -H '0.0.0.0' 2>/dev/null
   openMode: split-right
 
 github:
